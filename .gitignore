@@ -1,0 +1,39 @@
+# Secrets
+.env
+.env.*
+*.key
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+conda-env/
+*.egg-info/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Generated reports
+outputs/latest/
+
+# Large/raw data
+data/raw/
+*.xlsx
+*.xls
